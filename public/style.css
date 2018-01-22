@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Fugaz+One');
+
+.navbar-brand, h1, h2, h3, h4, h5 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 1.728em;
+}
+
+p, li {
+  font-size: 1.2em;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+h1 {
+  font-size: 2.986em;
+}
+
+h2 {
+  font-size: 2.488em;
+}
+
+h3 {
+  font-size: 2.074em;
+}
+
+h4 {
+  font-size: 1.728em;
+}
+
+h5 {
+  font-size: 1.44em;
+}
+
+body {
+  padding-top: 40px;
+}
+
+.section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#intro-list {
+  list-style-type: square;
+}
+
+/* colour palette: http://paletton.com/#uid=7020u0kiCFn8GVde7NVmtwSqXtg */
+
+#img-me {
+  box-shadow: 10px 7.5px 0px 0px #FF726B;
+}
+
+#about-section {
+  background-color: #79CED6;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  box-shadow: 20px 15px 0px 0px #50B2BB;
+}
+
+#portfolio-section {
+  background-color: #FFC48F;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  box-shadow: 20px 15px 0px 0px #FFB16B;
+}
+
+#contact-section {
+  background-color: #FF948F;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  box-shadow: 20px 15px 0px 0px #FF726B;
+}
+
+.thumbnail {
+  background-color: #81E88E;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 10px 7.5px 0px 0px #5AD86A;
+}
+
+.fa {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fa:active {
+  transform: translateY(4px);
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon-black {
+  color: black;
+}
+
+.icon-twitter-blue {
+  color: #4099ff;
+}
+
+.icon-linkedin-blue {
+  color: 0077b5;
+}
+
+.icon-white {
+  color: white;
+}
