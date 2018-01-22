@@ -1,5 +1,5 @@
-# Matt's Calculator
+# mattkeegan.uk
 
-A javascript calculator built with vanilla JS and jQuery.
+Work in progress portfolio for Matt Keegan.
 
 Made by [Matt K](https://github.com/yobananaboy)
