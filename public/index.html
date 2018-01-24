@@ -28,18 +28,29 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <!--[if IE]>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
+    <![endif]-->
     <base href="/" />
   </head>
   <body>
-    <nav class="top-nav">
-      <div class="top-nav-content">
-        <h3><a href="/">Matt Keegan</a></h1>
-      </div>
-    </nav>
-    <div class="temp-message">
-      <h1>Website under construction, please come back soon!</h1>
+    <div class="intro">
+      <h1>Matt Keegan</h1>
     </div>
+    <div class="temp-message">
+      <h3>Website is under construction!</h3>
+      <h3>Check me out on <a href="https://github.com/yobananaboy" target="_blank">Github</a></h3>
+    </div>
+    <div class="quote-wrapper">
+      <h3>For now, have an inspirational quote from Matt...</h3>
+      <p id="quote-text">"Quote is loading</h2><p id="quote-author">- mattkeegan.uk"</p>
+      <h4>- Matt Keegan</h4>
+    </div>
+    <!--[if !IE]> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <!-- <![endif]-->
+    <script src="/client.js"></script>
   </body>
 </html>
