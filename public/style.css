@@ -4,12 +4,12 @@ html {
 body {
   	background-color: #0447F1;
 	background: linear-gradient(135deg, #0447F1, 50%, #54EAF1);
+	background-attachment: fixed;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	line-height: 1.45;
 	color: #fafafa;
 	margin: 0;
-	min-height: 1000px;
 }
 div {
 	box-sizing: border-box;
@@ -38,7 +38,7 @@ small, .font_small {
 }
 a, a:visited {
 	text-decoration: none;
-	color: #ff9a3e;
+	color: #251328;
 }
 a:hover {
 	color: #C5FD57;
@@ -130,7 +130,7 @@ a:hover {
 	color: #212121;
 }
 .projects-item-wrapper a:hover {
-	color: #ff9a3e;
+	color: #FF3C19;
 }
 .skill-button-wrapper {
 	margin: 1em auto;
@@ -140,8 +140,8 @@ a:hover {
 }
 .skill-button {
 	display: inline-block;
-	background-color: #ff9a3e;
-	border: 1px solid #ff9a3e;
+	background-color: #FF3C19;
+	border: 1px solid #FF3C19;
 	border-radius: 50px;
 	padding: 0.5em;
 	margin-top: 0.5em;
@@ -155,17 +155,10 @@ a:hover {
 }
 /* FOOTER */
 .footer {
-	color: #212121;
 	margin: 0 auto;
 	width: 70%;
 	text-align: center;
 	margin-bottom: 2em;
-}
-.footer a {
-	color: #212121;
-}
-.footer  a:hover {
-	color: #0447F1;
 }
 /* MOBILE */
 @media only screen and (max-width: 800px) {
