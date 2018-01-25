@@ -1,5 +1,3 @@
 # mattkeegan.uk
 
-Work in progress portfolio for Matt Keegan.
-
-Made by [Matt K](https://github.com/yobananaboy)
+Online portfolio for [full-stack developer Matt Keegan](https://github.com/yobananaboy), where you can check out my latest projects.
