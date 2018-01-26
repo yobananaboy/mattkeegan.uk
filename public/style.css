@@ -3,7 +3,7 @@ html {
 }
 body {
   	background-color: #0447F1;
-	background: linear-gradient(135deg, #0447F1, 50%, #54EAF1);
+	background: linear-gradient(135deg, #0447F1, 50%, #C47DC1);
 	background-attachment: fixed;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
@@ -38,7 +38,7 @@ small, .font_small {
 }
 a, a:visited {
 	text-decoration: none;
-	color: #251328;
+	color: #ecbb80;
 }
 a:hover {
 	color: #C5FD57;
