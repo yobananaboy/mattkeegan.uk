@@ -1,0 +1,97 @@
+<!-- DOCTYPE HTML5 -->
+<!DOCTYPE html>
+<html lang="en" ng-app>
+  <head>
+    <!-- Set character encoding for the document -->
+    <meta charset="utf-8">
+    <!-- Instruct Internet Explorer to use its latest rendering engine -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Viewport for responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Meta Description -->
+    <meta name="description" content="Calculator app developed by Matt Keegan.">
+    <title>Matt Keegan | Calculator</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--[if IE]>
+    <link href="https://fonts.googleapis.com/css?family=Lato|VT323|Droid+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/calculator/style.css">
+    <![endif]-->
+    <base href="/" />
+  </head>
+  <body>
+    <nav class="top-nav">
+        <a href="/">Made by Matt Keegan</a>
+    </nav>
+    <div class="container">
+        <div id="calculator" class="noselect">
+          <div class="top">
+            <div id="type">
+              <p>Matt calculator 2000</p>
+            </div>
+            <div class="noselect" id="screen">
+              <p id="main">0</p>
+              <p id="hist"></p>
+            </div><!-- End of screen-->
+          </div><!--End of top-->
+          <div id="buttons">
+            
+            <button value="ac" class="red-btn">AC</button>
+            <button value="ce" class="red-btn">CE</button>
+            <button value="/" class="op-btn small-txt">&divide;</button>
+            <button value="*" class="op-btn">X</button>
+            
+            <button value="7" class="noselect">7</button>
+            <button value="8" class="noselect" >8</button>
+            <button value="9" class="noselect">9</button>
+            <button value="-" class="op-btn small-txt">-</button>
+            
+            <button value="4" class="noselect">4</button>
+            <button value="5" class="noselect">5</button>
+            <button value="6" class="noselect">6</button>
+            <button value="+" class="op-btn small-txt">+</button>
+            
+            <button value="1" class="noselect">1</button>
+            <button value="2" class="noselect">2</button>
+            <button value="3" class="noselect">3</button>
+            
+            <button value="0" id="wide-btn" class="bottom-btn">0</button>
+            <button value="." class="bottom-btn">.</button>
+            <button value="=" id="tall-btn" class="op-btn small-txt" >=</button>
+            
+          </div><!-- End of buttons-->
+          
+        </div><!-- End of calculator-->
+          
+        <div id="footer" class="text-center">
+          <p id="made-by">Made by <a href="https://codepen.io/mattkeegan20/" target="_blank">Matt K</a></p>
+        </div><!--End of footer-->
+          
+        </div><!--End of container-->
+        <!--[if !IE]> -->
+        <link href="https://fonts.googleapis.com/css?family=Lato|VT323|Droid+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="/calculator/style.css">
+        <!-- <![endif]-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="/calculator/client.js"></script>
+  </body>
+</html>

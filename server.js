@@ -4,7 +4,9 @@ const app = express();
 
 const server = http.createServer(app);
 
-app.use(express.static('public'))
+app.use(express.static('public'));
+
+require('./server/routes/routes')(app);
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
   var addr = server.address();
