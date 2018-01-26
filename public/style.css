@@ -162,6 +162,6 @@ a:hover {
 		min-height: 600px;
 	}
 	.intro, .temp-message, .quote-wrapper, .projects-item-wrapper, .projects-title-wrapper, .social-icons {
-		width: 95%;
+		width: 90%;
 	}
 }
