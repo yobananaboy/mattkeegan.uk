@@ -1,3 +1,8 @@
+require('babel-register')({
+    presets: ["env", "react", "stage-2", "es2015"],
+    plugins: ["transform-class-properties"]
+});
+
 const http = require('http');
 const express = require('express');
 const app = express();
@@ -5,6 +10,9 @@ const app = express();
 const server = http.createServer(app);
 
 app.use(express.static('public'));
+
+app.set('views', './views');
+app.set('view engine', 'ejs');
 
 require('./server/routes/routes')(app);
 
