@@ -187,7 +187,14 @@ a:hover {
 	text-align: center;
 	margin-bottom: 2em;
 }
-
+/* ERROR 404 */
+.error-message {
+	text-align: center;
+}
+.img-error {
+	max-width: 500px;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
 /* MOBILE */
 @media only screen and (max-width: 800px) {
 	body {
@@ -196,5 +203,8 @@ a:hover {
 	
 	.intro, .temp-message, .quote-wrapper, .projects-item-wrapper, .projects-title-wrapper, .social-icons {
 		width: 90%;
+	}
+	.img-error {
+		max-width: 80%;	
 	}
 }
