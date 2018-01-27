@@ -272,7 +272,7 @@ class GameOfLifeApp extends Component {
     }
     return(
         <div className='container-fluid'>
-          <BackToHomeNav />
+          <BackToHomeNav id="game-of-life" />
           <div className='row'>
              <Header />
           </div>

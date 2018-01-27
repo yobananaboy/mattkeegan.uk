@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-export const BackToHomeNav = () => {
+export const BackToHomeNav = (props) => {
   return(
     <nav className="top-nav">
-        <a href="/">Made by Matt Keegan</a>
+        <a href={`/#${props.id}`}>Made by Matt Keegan</a>
     </nav>
   );
 };
